@@ -68,16 +68,16 @@
 }
 
 .exp__img {
-    height: 4rem;
-    width: 4rem;
+    height: 4.3rem;
+    width: 4.3rem;
 
 }
 
 .exp__img__container {
-    height: 3.9rem;
-    width: 3.9rem;
-    min-width: 3.9rem;
-    min-height: 3.9rem;
+    height: 4rem;
+    width: 4rem;
+    min-width: 4rem;
+    min-height: 4rem;
     overflow: hidden;
     border-radius: 4rem;
     border:  #a39274 solid 3px; 
