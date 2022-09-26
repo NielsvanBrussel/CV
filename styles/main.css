@@ -68,8 +68,9 @@
 }
 
 .exp__img {
-    height: 4rem;
-    width: 4rem;
+    height: 4.1rem;
+    width: 4.1rem;
+
 }
 
 .exp__img__container {
@@ -80,7 +81,9 @@
     overflow: hidden;
     border-radius: 4rem;
     border:  #a39274 solid 3px; 
-    position: relative;  
+    position: relative;
+    align-items: center;
+    align-content: center;      
 }
 
 .layer {
