@@ -50,6 +50,35 @@
     list-style-type: none;
 }
 
+.exp__list__item__flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.exp__list__item__title {
+    width: 12rem;
+}
+
+.exp__list__ratingbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.exp__list__ratingbox__filled, .exp__list__ratingbox__unfilled {
+    margin: auto 0.25rem;
+    height: 0.75rem;
+    width: 0.75rem;
+    border: #000 solid 0.25rem;
+}
+
+.exp__list__ratingbox__filled {
+    background-color: #a39274;
+}
+
+.exp__list__ratingbox__unfilled {
+    background-color: transparent;
+}
+
 .exp__item {
     text-decoration: none;
     margin-bottom: 0.5rem;
