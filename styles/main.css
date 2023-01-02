@@ -19,6 +19,7 @@
 
 .header__p, .header__li, .header__h1 {
     color: #1d1e22;
+    text-align: center;
 }
 
 .header__p {
@@ -34,6 +35,28 @@
 
 .header__li {
     margin: 1rem 0rem;
+}
+
+.header__img__container {
+    height: auto;
+    width: 120px;
+    min-width: 120px;
+    min-height: 120px;
+    overflow: hidden;
+    border-radius: 1.5rem;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: center; 
+    margin: auto;  
+}
+
+.header__img {
+    height: auto;
+    width: 122px;
+    min-height: 122px;
+    min-width: 122px; 
 }
 
 .main {
